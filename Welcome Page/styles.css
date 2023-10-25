@@ -1,0 +1,127 @@
+.rectangle{
+    width: 600px;
+    height: 800px;
+    border: 2px solid #FF5376;
+    border-radius: 1px;
+    background: #FF5376;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle h1{
+    width: 547px;
+      color: #FFFCF2;
+      text-align: center;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 250px;
+      margin-left: 18px;
+  }
+  
+  .role {
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    margin-right: 120px;
+  }
+  .role h{
+    color: #FF5376;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .medium-box {
+    width:800px;
+    height: 200px;
+    border: 2px solid #FF5376;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+    margin-bottom: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .medium-box p {
+    color: #FF5376;
+    font-size: 16px;
+    font-weight:1000;
+    margin-top: 100px;
+  }
+  
+  .box {
+    width: 800px;
+    height: 200px;
+    border: 2px solid #FF5376;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    margin-top: 600px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+  }
+  
+  .box p{
+    color: #FF5376;
+    font-size: 16px;
+    font-weight: 1000;
+    margin-top: 100px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .simple-button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FF5376;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:700px;
+  }
+  
+  .simple-button:hover {
+    background: #2980b9;
+  }
+  
