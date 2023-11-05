@@ -1,0 +1,101 @@
+.rectangle{
+    width: 600px;
+    height: 800px;
+    border: 2px solid #FF5376;
+    border-radius: 1px;
+    background: #FF5376;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle h1{
+    width: 547px;
+      color: #FFFCF2;
+      text-align: center;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 250px;
+      margin-left: 18px;
+  }
+
+ body {
+      color: #FF5376;
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: left;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px 0;
+      margin-bottom: 10px;
+      border: none;
+      background: none;
+      border-bottom: 1px solid #F0386B;
+    }
+
+    .submit-button {
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+      border-radius: 13px;
+      background: #FFF;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      color: #FF5376;
+      text-align: right;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .submit-button-container {
+      text-align: right;
+    }
+
+.align-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.rectangle, .container {
+    flex: 1;
+}
+
+.container {
+    background-color: #fff;
+  width: 400px;
+  margin-top: 30px;
+}
