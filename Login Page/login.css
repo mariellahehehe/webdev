@@ -119,7 +119,8 @@
 .circle {
   width: 100px;
   height: 100px;
-  background-color: #F0386B;
+  background-image: url(https://scontent.fcgy2-1.fna.fbcdn.net/v/t39.30808-1/305975246_480030324173600_4611494949818294877_n.png?stp=dst-png_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG2gtTupMLSZ4txhq__6755QWGQxV8Is6NBYZDFXwizowHdcai4Qo3Ra7lW8pLwszJEv1YFBGL8sApgiP-X_ydR&_nc_ohc=U-M-eQ0fbCAAX94wx0q&_nc_ht=scontent.fcgy2-1.fna&oh=00_AfDsYgjQZRuwIkukxW1PACYTpOW8DsKf7rD_G0hykwbT3Q&oe=654E546E);
+  background-position: center;
   border-radius: 50px;
   margin-bottom: 130px;
 }
