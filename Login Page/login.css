@@ -1,0 +1,186 @@
+.rectangle{
+    width: 700px;
+    height: 800px;
+    border: 2px solid #FF5376;
+    border-radius: 1px;
+    background: #FF5376;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle h1{
+    width: 547px;
+      color: #FFFCF2;
+      text-align: center;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 160px;
+      margin-left: 18px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #F0386B;
+    border-radius: 50px;
+    margin-bottom: 130px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  input {
+    width: 450px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 13px;
+  border: 1px solid #E1E1E1;
+  background: #F2F2F2;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.2s ease-out all;
+  }
+  
+  input:focus + label, input:valid + label {
+    top: -10px;
+    font-size: 12px;
+    color: #F0386B;
+  }
+  
+  button {
+    width: 470px;
+    padding: 10px;
+    background-color:  #F0386B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+  }
+  
+  .forgot-password-button {
+    width: 470px;
+    padding: 10px;
+    background-color:  #FFFCF2;
+    color: #F0386B;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    height: 65px;
+  }
+  
+.align-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.rectangle {
+  width: 700px;
+  height: 800px;
+  border: 2px solid #FF5376;
+  border-radius: 1px;
+  background: #FF5376;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle h1 {
+  width: 547px;
+  color: #FFFCF2;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #F0386B;
+  border-radius: 50px;
+  margin-bottom: 130px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.form-group {
+  margin: 10px 0;
+  position: relative;
+}
+
+input {
+  width: 450px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 13px;
+  border: 1px solid #E1E1E1;
+  background: #F2F2F2;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.2s ease-out all;
+}
+
+input:focus + label,
+input:valid + label {
+  top: -10px;
+  font-size: 12px;
+  color: #F0386B;
+}
+
+button {
+  width: 470px;
+  padding: 10px;
+  background-color: #F0386B;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+
+.forgot-password-button {
+  width: 470px;
+  padding: 10px;
+  background-color: #FFFCF2;
+  color: #F0386B;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+  height: 65px;
+}
